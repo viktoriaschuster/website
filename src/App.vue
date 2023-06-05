@@ -8,7 +8,7 @@
           <div class="tabs justify-center">
             <a class="tab" href="#cv">CV Highlights</a>
             <a class="tab" href="#projects">Projects</a>
-            <a class="tab tab-active" href="#papers">Papers & Talks</a>
+            <a class="tab" href="#papers">Papers & Talks</a>
             <a class="tab" href="#teaching">Teaching</a>
           </div>
 
