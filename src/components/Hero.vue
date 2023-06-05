@@ -1,7 +1,7 @@
 <template>
   <div class="hero flex-col lg:flex-row">
     <div class="hero-content flex-col lg:flex-row">
-      <figure><img src="../assets/IMG_1467_edited copy.jpeg" class="max-w-sm rounded-lg shadow-2xl" /></figure>
+      <figure><img src="/src/assets/viki.jpeg" class="max-w-sm rounded-lg shadow-2xl" /></figure>
 
       <div class="flex flex-col">
         <h1 class="text-5xl font-bold">Viki Schuster</h1>
