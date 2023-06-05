@@ -1,6 +1,6 @@
 <template>
   <div class="card my-4 lg:card-side bg-base-100 shadow-xl">
-    <!--<figure><img class="max-w-md hover:max-w-lg" src="../assets/IMG_1467_edited copy.jpeg" alt="Movie" /></figure>-->
+    <figure class="min-width-md"><img :src="image" alt="Movie" /></figure>
     <div class="card-body">
       <h2 class="card-title">
         {{ title }}
@@ -8,7 +8,7 @@
       <p>
         {{ abstract }}
       </p>
-      <div class="card-actions justify-end">
+      <div class="card-actions justify-end max-width-md">
         <a
           :href="link">
           <button class="btn btn-primary">Read
@@ -29,7 +29,8 @@ export default {
   props: [
     "title",
     "abstract",
-    "link"
+    "link",
+    "image"
   ]
 };
 </script>

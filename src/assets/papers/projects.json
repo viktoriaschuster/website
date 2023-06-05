@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
+            "abstract": "",
+            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fa-manifold-learning-perspective-on-representation-learning(864aba41-d232-4f6d-bf93-1ef93537832a).html",
+            "image": "./src/assets/images/dgd.PNG"
+        },
+        {
+            "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
+            "abstract": "",
+            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fnettcr20-enables-accurate-prediction-of-tcrpeptide-binding-by-using-paired-tcr-and--sequence-data(fdc9a2ed-9aae-45d8-a499-a91297743c12).html",
+            "image": "./src/assets/images/nettcr.PNG"
+        }
+    ]
+}
