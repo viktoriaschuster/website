@@ -2,8 +2,18 @@
     "items": [
         {
             "title": "Machine learning in Pytorch",
-            "abstract": "Basic course for machine learning and so on.",
-            "link": "https://research.ku.dk/search/result/?pure=en%2Fpersons%2Fviktoria-schuster(c6319c28-837c-42c2-88e9-cac0efc7b4b6).html"
+            "abstract": "This is a 5-day basic course on machine learning for life science researchers. I have created and presented the teaching material for the introduction to PyTorch and have created one of the 3 data challenges on histopathological image classification.",
+            "link": "https://github.com/Center-for-Health-Data-Science/IntroToML"
+        },
+        {
+            "title": "Introduction to Python",
+            "abstract": "A 2-day programming crash course in Python. I have been involved in restructuring the course in 2022 and created and tought material on basic programming synthax and functions. I have participated in teaching the course and TAing in 2022.",
+            "link": "https://github.com/Center-for-Health-Data-Science/PythonTsunami"
+        },
+        {
+            "title": "From Excel to R",
+            "abstract": "A 2-day programming crash course in R. I have helped create and present teaching material for tidyverse and have been a TA from 2021-2022.",
+            "link": "https://github.com/Center-for-Health-Data-Science/FromExceltoR"
         }
     ]
 }

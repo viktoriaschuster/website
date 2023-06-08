@@ -1,15 +1,21 @@
 {
     "items": [
         {
+            "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
+            "abstract": "",
+            "link": "https://arxiv.org/abs/2110.06672",
+            "image": "./src/assets/images/DGD_4whiteS.PNG"
+        },
+        {
             "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
             "abstract": "",
-            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fa-manifold-learning-perspective-on-representation-learning(864aba41-d232-4f6d-bf93-1ef93537832a).html",
+            "link": "https://www.mdpi.com/1099-4300/23/11/1403",
             "image": "./src/assets/images/dgd.PNG"
         },
         {
             "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
             "abstract": "",
-            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fnettcr20-enables-accurate-prediction-of-tcrpeptide-binding-by-using-paired-tcr-and--sequence-data(fdc9a2ed-9aae-45d8-a499-a91297743c12).html",
+            "link": "https://www.nature.com/articles/s42003-021-02610-3",
             "image": "./src/assets/images/nettcr.PNG"
         }
     ]

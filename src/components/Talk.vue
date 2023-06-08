@@ -1,14 +1,16 @@
 <template>
   <div class="card my-4 lg:card-side bg-base-100 shadow-xl">
-    <!--<figure><img class="max-w-md hover:max-w-lg" src="../assets/IMG_1467_edited copy.jpeg" alt="Movie" /></figure>-->
     <div class="card-body">
       <h2 class="card-title">
         {{ title }}
       </h2>
       <p>
+        {{ date }}
+      </p>
+      <p>
         {{ abstract }}
       </p>
-      <div class="card-actions justify-end">
+      <div class="card-actions justify-end max-width-md">
         <a
           :href="link">
           <button class="btn btn-primary">Visit
@@ -27,7 +29,9 @@
 export default {
   props: [
     "title",
-    "abstract"
+    "date",
+    "abstract",
+    "link"
   ]
 };
 </script>

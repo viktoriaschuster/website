@@ -1,16 +1,19 @@
 {
     "items": [
         {
-            "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
-            "abstract": "",
-            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fa-manifold-learning-perspective-on-representation-learning(864aba41-d232-4f6d-bf93-1ef93537832a).html",
-            "image": "./src/assets/images/dgd.PNG"
+            "title": "No more Gaussian latent spaces",
+            "abstract": "Together with people from Copenhagen's Pioneer Centre for AI and MLLS, the Center for Basic Machine Learning Research in Life Sciences, we are working on a manuscript on why Gaussian priors are ill-fitted because OOD data becomes Gaussian in latent space. We are hoping to submit this project to ICLR 2024.",
+            "link": "https://www.aicentre.dk/"
         },
         {
-            "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
-            "abstract": "",
-            "link": "https://research.ku.dk/search/result/?pure=en%2Fpublications%2Fnettcr20-enables-accurate-prediction-of-tcrpeptide-binding-by-using-paired-tcr-and--sequence-data(fdc9a2ed-9aae-45d8-a499-a91297743c12).html",
-            "image": "./src/assets/images/nettcr.PNG"
+            "title": "More data, more features, less encoder",
+            "abstract": "With Corrado Pancotti from the Fariselli lab at the University of Turin, Anders and I are investigating the effects of encoders on data efficiency in VAEs and our developed method, the DGD.",
+            "link": "https://scholar.google.com/citations?user=ftJE6tgAAAAJ&hl=en"
+        },
+        {
+            "title": "MultiDGD",
+            "abstract": "My visit with Sarah Teichmann at the Wellcome Sanger Institute (Cambridge UK) resulted in an amazing collaboration. Emma Dann (PhD student), Sarah, Anders and I are currently finishing up a manuscript on applying our Deep Generative Decoder to multi-omics data. This type of data is high-dimensional (100k-300k features) and often contains few samples. Our method lends itself naturally to this task and besides showing SOTA performance on data integration, reconstruction and missing modality prediction, we introduce a new feature as an emergent property of the model. In our gene2peak functionality, we are able to predict cell-type specific associations between genes and chromatin regions, enabling us to perform various in silico experiments which can drastically advance research in gene regulation.",
+            "link": "http://www.teichlab.org/"
         }
     ]
 }
