@@ -27,7 +27,8 @@
 export default {
   props: [
     "title",
-    "abstract"
+    "abstract",
+    "link"
   ]
 };
 </script>
