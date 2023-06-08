@@ -10,7 +10,7 @@
             <a class="tab" href="#papers">Papers</a>
             <a class="tab" href="#talks">Posters & Talks</a>
             <a class="tab" href="#teaching">Teaching</a>
-            <a class="tab" href="#cv">CV</a>
+            <!--<a class="tab" href="#cv">CV</a>-->
           </div>
 
           <h1 class="text-3xl font-bold pt-5" id="projects">New projects</h1>
@@ -30,9 +30,9 @@
           <div class="divider"></div>
           <Paper v-for="item in teaching" :title="item.title" :abstract="item.abstract" :link="item.link" />
 
-          <h1 class="text-3xl font-bold pt-5" id="cv">CV</h1>
+          <!--<h1 class="text-3xl font-bold pt-5" id="cv">CV</h1>
           <div class="divider"></div>
-          <!--<CvCard />-->
+          <CvCard />-->
         </div>
       </div>
     </main>

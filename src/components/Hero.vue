@@ -7,8 +7,10 @@
         <h1 class="text-5xl font-bold">Viki Schuster</h1>
         <p class="py-6">
           Hi, my name is Viktoria Schuster, machine learning researcher and
-          computational biologist by trade. Glad you found my website, below you
-          can find an overview of my research activities and papers. I AM NOT A BIOLOGIST!
+          data scientist for biological and health-related data by trade. 
+          I am currently a PhD student in the Krogh group at the University of Copenhagen. 
+          Glad you found my website, below you
+          can find an overview of my research and teaching activities.
         </p>
         <div class="flex flex-row gap-4 md:place-self-center">
           <a href="https://twitter.com/viki_schu/with_replies?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="24"
