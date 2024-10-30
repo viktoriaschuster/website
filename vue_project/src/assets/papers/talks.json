@@ -1,31 +1,37 @@
 {
     "items": [
         {
-            "title": "Nordic AI Meet 2023",
+            "title": "Danish Digitalization, Data Science and AI conference 2024 (talk)",
+            "date": "2024-02",
+            "abstract": "I was invited to give a talk titled `The Deep Generative Decoder: Encoder-less representation learning with flexible priors`.",
+            "link": "https://ddsa.dk/"
+        },
+        {
+            "title": "Nordic AI Meet 2023 (poster)",
             "date": "2023-10",
-            "abstract": "I am invited to give a talk titled `The Deep Generative Decoder: Encoder-less representation learning with flexible priors`.",
+            "abstract": "I was invited to give a talk titled `The Deep Generative Decoder: Encoder-less representation learning with flexible priors`.",
             "link": "https://nordicaimeet.com/"
         },
         {
-            "title": "ISMB/ECCB 2023",
+            "title": "ISMB/ECCB 2023 (poster)",
             "date": "2023-07",
-            "abstract": "I will be presenting my work on single cell generative modeling in form of a poster.",
+            "abstract": "I presented my work on single cell generative modeling in form of a poster.",
             "link": "https://www.iscb.org/ismbeccb2023"
         },
         {
-            "title": "Seminar talk at Helmholtz Munich",
+            "title": "Seminar talk at Helmholtz Munich (talk)",
             "date": "2023-06",
             "abstract": "I have the pleasure to give a talk at the Computational Health Department about Emma, Sarah and my work on the multiDGD.",
             "link": "https://www.helmholtz-munich.de/en"
         },
         {
-            "title": "Summer school on human-in-the-loop and learning with limited labels",
-            "date": "2022-08",
+            "title": "Cellular Genetics methods matter seminar - Wellcome Sanger Institute (talk)",
+            "date": "2022-11",
             "abstract": "Great researchers such as Gaël Varoquaux, Serge Belongie and a lot of bright fellow PhD students came together for a fun local summer school. This was a great opportunity to learn and share my work.",
             "link": "https://human-in-the-loop.compute.dtu.dk/"
         },
         {
-            "title": "Seminar at MLLS",
+            "title": "Seminar at MLLS (talk)",
             "date": "2021-06",
             "abstract": "Our center for machine learning in life sciences is an amazing place to share knowledge and have great discussions. I had the pleasure to present my work on my first paper of the PhD.",
             "link": "https://mlls.dk/"

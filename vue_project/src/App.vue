@@ -6,9 +6,9 @@
         <div class="bg-white rounded shadow px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
           <Hero />
           <div class="tabs justify-center">
-            <a class="tab" href="#projects">New projects</a>
+            <a class="tab" href="#projects">Current projects</a>
             <a class="tab" href="#papers">Papers</a>
-            <a class="tab" href="#talks">Posters & Talks</a>
+            <a class="tab" href="#talks">Talks & Posters</a>
             <a class="tab" href="#teaching">Teaching</a>
             <!--<a class="tab" href="#cv">CV</a>-->
           </div>
@@ -21,7 +21,7 @@
           <div class="divider"></div>
           <PaperImage v-for="paper in papers" :title="paper.title" :abstract="paper.abstract" :link="paper.link" :image="paper.image" />
 
-          <h1 class="text-3xl font-bold pt-5" id="talks">Posters and Talks</h1>
+          <h1 class="text-3xl font-bold pt-5" id="talks">Talks & Posters</h1>
           <div class="divider"></div>
           <Talk v-for="talk in talks" :title="talk.title" :date="talk.date" :abstract="talk.abstract" :link="talk.link"
             :image="talk.image" />
