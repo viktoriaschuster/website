@@ -4,7 +4,7 @@
             "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
             "abstract": "Bioinformatics, 2023",
             "link": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685",
-            "image": "vue_project/src/assets/images/DGD_4whiteS.PNG"
+            "image": "vue_project/src/assets/images/DGD_4whiteS.png"
         },
         {
             "title": "N-of-one differential gene expression without control samples using a deep generative model",
