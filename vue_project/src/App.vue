@@ -13,7 +13,7 @@
             <!--<a class="tab" href="#cv">CV</a>-->
           </div>
 
-          <h1 class="text-3xl font-bold pt-5" id="projects">New projects</h1>
+          <h1 class="text-3xl font-bold pt-5" id="projects">Current projects</h1>
           <div class="divider"></div>
           <Paper v-for="project in projects" :title="project.title" :abstract="project.abstract" :link="project.link"/>
 
