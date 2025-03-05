@@ -1,28 +1,29 @@
 {
     "items": [
         {
+            "title": "MultiDGD: A versatile deep generative model for multi-omics data",
+            "abstract": "Nature Communications, 2024",
+            "link": "https://www.nature.com/articles/s41467-024-53340-z"
+        },
+        {
             "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
             "abstract": "Bioinformatics, 2023",
-            "link": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685",
-            "image": "vue_project/src/assets/images/DGD_4whiteS.png"
+            "link": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685"
         },
         {
             "title": "N-of-one differential gene expression without control samples using a deep generative model",
             "abstract": "Genome Biology, 2023",
-            "link": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7",
-            "image": "vue_project/src/assets/images/13059_2023_3104_Fig1_HTML.webp"
+            "link": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7"
         },
         {
             "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
             "abstract": "Entropy, 2021",
-            "link": "https://www.mdpi.com/1099-4300/23/11/1403",
-            "image": "vue_project/src/assets/images/dgd.PNG"
+            "link": "https://www.mdpi.com/1099-4300/23/11/1403"
         },
         {
             "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
             "abstract": "Nature Communications, 2021",
-            "link": "https://www.nature.com/articles/s42003-021-02610-3",
-            "image": "vue_project/src/assets/images/nettcr.PNG"
+            "link": "https://www.nature.com/articles/s42003-021-02610-3"
         }
     ]
 }
