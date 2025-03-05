@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "title": "Models, Inference & Algorithms (MIA) flash talk",
+            "date": "2025-03",
+            "abstract": "I gave a whiteboard talk about interpreting gene expression models with sparse autoencoders.",
+            "link": "https://www.broadinstitute.org/talks/spring-2025/mia"
+        },
+        {
             "title": "Danish Digitalization, Data Science and AI conference 2024 (talk)",
             "date": "2024-02",
             "abstract": "I was invited to give a talk about our work on encoder-less representation learning and applications in biology.",
