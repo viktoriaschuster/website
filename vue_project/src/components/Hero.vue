@@ -8,7 +8,7 @@
         <p class="py-6">
           Hi, my name is Viktoria Schuster, machine learning researcher and
           data scientist for biological and health-related data by trade. 
-          I am currently a Postdoctoral Researcher in the Krogh group at the University of Copenhagen, where I completed my PhD January 2024. Soon I will start a new position at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline Uhler.
+          I completed my PhD in the Krogh group at the University of Copenhagen January 2024, where I stayed on as a Postoc until the end of 2024. Since then I have started as a postdoctoral researcher at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline Uhler.
           Glad you found my website, below you
           can find some highlights of my research and teaching activities.
         </p>
