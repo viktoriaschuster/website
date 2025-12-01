@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Can sparse autoencoders make sense of gene expression latent variable models?",
+            "abstract": "Inspired by the Mechanistic Interpretability community, I am taking a quick look at what SAEs can do for interpretability outside the realm of LLMs. I am particularly interested in making models in the fields of Biology and Medicine more interpretable.",
+            "link": "https://arxiv.org/abs/2410.11468"
+        },
+        {
             "title": "MultiDGD: A versatile deep generative model for multi-omics data",
             "abstract": "Nature Communications, 2024",
             "link": "https://www.nature.com/articles/s41467-024-53340-z"

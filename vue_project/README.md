@@ -21,3 +21,21 @@ In order to build the website run:
 npm run build
 ```
 The built static HTML can then be found in the dist/ folder.
+
+``` Bash
+cd .. # into website root
+cp -r vue_project/dist/* .
+```
+
+Commit and push the changes to deploy the updated website.
+``` Bash
+git add .
+git commit -m "Update website content and rebuild"
+git push origin main
+```
+
+# When setting up on a new machine 
+Make sure to install Node.js and npm first. Then run the following command at the root of the repository to install dependencies:
+``` Bash
+brew install node
+```

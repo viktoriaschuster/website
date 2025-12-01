@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "title": "Machine Learning in Computational Biology (MLCB) conference (talk)",
+            "date": "2025-09",
+            "abstract": "I was invited to present my accepted paper (oral) on sparse autoencoders for gene expression models.",
+            "link": "https://www.mlcb.org/"
+        },
+        {
             "title": "Models, Inference & Algorithms (MIA) flash talk",
             "date": "2025-03",
             "abstract": "I gave a whiteboard talk about interpreting gene expression models with sparse autoencoders.",

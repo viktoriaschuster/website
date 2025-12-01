@@ -1,9 +1,9 @@
 {
     "items": [
         {
-            "title": "Sparse Autoencoders for Interpretability of Latent Representations",
-            "abstract": "Inspired by the Mechanistic Interpretability community, I am taking a quick look at what SAEs can do for interpretability outside the realm of LLMs. I am particularly interested in making models in the fields of Biology and Medicine more interpretable.",
-            "link": "https://arxiv.org/abs/2410.11468"
+            "title": "Intrinsic dimension estimation for multi-modal data",
+            "abstract": "I have developed a method that combines SVD with rate-distortion theory to estimate the intrinsic dimensions of shared and modality-specific latent spaces in multi-modal datasets. This method also learns the disentangled subspaces themselves and can be applied in end-to-end training as well as on top of pre-trained unimodal models.",
+            "link": ""
         }
     ]
 }
