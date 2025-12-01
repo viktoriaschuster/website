@@ -19,7 +19,7 @@
 
           <h1 class="text-3xl font-bold pt-5" id="papers">Papers</h1>
           <div class="divider"></div>
-          <PaperImage v-for="paper in papers" :title="paper.title" :abstract="paper.abstract" :link="paper.link" :image="paper.image" />
+          <Paper v-for="paper in papers" :title="paper.title" :abstract="paper.abstract" :link="paper.link"/>
 
           <h1 class="text-3xl font-bold pt-5" id="talks">Talks & Posters</h1>
           <div class="divider"></div>
