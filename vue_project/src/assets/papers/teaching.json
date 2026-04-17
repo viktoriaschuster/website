@@ -2,18 +2,15 @@
     "items": [
         {
             "title": "Machine learning in Pytorch",
-            "abstract": "This is a 5-day basic course on machine learning for life science researchers. I have created and presented the teaching material for the introduction to PyTorch and have created one of the 3 data challenges on histopathological image classification.",
-            "link": "https://github.com/Center-for-Health-Data-Science/IntroToML"
+            "description": "A 5-day introductory machine learning course for life science researchers, including PyTorch foundations and a histopathology image classification challenge."
         },
         {
             "title": "Introduction to Python",
-            "abstract": "A 2-day programming crash course in Python. I have been involved in restructuring the course in 2022 and created and tought material on basic programming synthax and functions. I have participated in teaching the course and TAing in 2022.",
-            "link": "https://github.com/Center-for-Health-Data-Science/PythonTsunami"
+            "description": "A 2-day Python crash course where I helped restructure content and taught basic syntax, functions, and programming fundamentals."
         },
         {
             "title": "From Excel to R",
-            "abstract": "A 2-day programming crash course in R. I have helped create and present teaching material for tidyverse and have been a TA from 2021-2022.",
-            "link": "https://github.com/Center-for-Health-Data-Science/FromExceltoR"
+            "description": "A 2-day introduction to R where I contributed tidyverse teaching materials and supported the course as TA."
         }
     ]
 }

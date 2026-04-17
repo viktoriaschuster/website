@@ -1,52 +1,44 @@
 {
     "items": [
         {
-            "title": "Machine Learning in Computational Biology (MLCB) conference (talk)",
-            "date": "2025-09",
-            "abstract": "I was invited to present my accepted paper (oral) on sparse autoencoders for gene expression models.",
-            "link": "https://www.mlcb.org/"
+            "event": "Machine Learning in Computational Biology (MLCB) conference",
+            "year": 2025,
+            "type": "talk"
         },
         {
-            "title": "Models, Inference & Algorithms (MIA) flash talk",
-            "date": "2025-03",
-            "abstract": "I gave a whiteboard talk about interpreting gene expression models with sparse autoencoders.",
-            "link": "https://www.broadinstitute.org/talks/spring-2025/mia"
+            "event": "Models, Inference & Algorithms (MIA)",
+            "year": 2025,
+            "type": "talk"
         },
         {
-            "title": "Danish Digitalization, Data Science and AI conference 2024 (talk)",
-            "date": "2024-02",
-            "abstract": "I was invited to give a talk about our work on encoder-less representation learning and applications in biology.",
-            "link": "https://ddsa.dk/"
+            "event": "Danish Digitalization, Data Science and AI conference",
+            "year": 2024,
+            "type": "talk"
         },
         {
-            "title": "Nordic AI Meet 2023 (poster)",
-            "date": "2023-10",
-            "abstract": "I was invited to give a talk titled `The Deep Generative Decoder: Encoder-less representation learning with flexible priors`.",
-            "link": "https://nordicaimeet.com/"
+            "event": "Nordic AI Meet",
+            "year": 2023,
+            "type": "poster"
         },
         {
-            "title": "ISMB/ECCB 2023 (poster)",
-            "date": "2023-07",
-            "abstract": "I presented my work on single cell generative modeling in form of a poster.",
-            "link": "https://www.iscb.org/ismbeccb2023"
+            "event": "ISMB/ECCB",
+            "year": 2023,
+            "type": "poster"
         },
         {
-            "title": "Seminar talk at Helmholtz Munich (talk)",
-            "date": "2023-06",
-            "abstract": "I have the pleasure to give a talk at the Computational Health Department about Emma, Sarah and my work on the multiDGD.",
-            "link": "https://www.helmholtz-munich.de/en"
+            "event": "Seminar at Helmholtz Munich",
+            "year": 2023,
+            "type": "talk"
         },
         {
-            "title": "Cellular Genetics methods matter seminar - Wellcome Sanger Institute (talk)",
-            "date": "2022-11",
-            "abstract": "Great researchers such as Gaël Varoquaux, Serge Belongie and a lot of bright fellow PhD students came together for a fun local summer school. This was a great opportunity to learn and share my work.",
-            "link": "https://human-in-the-loop.compute.dtu.dk/"
+            "event": "Cellular Genetics Methods Matter Seminar (Wellcome Sanger Institute)",
+            "year": 2022,
+            "type": "talk"
         },
         {
-            "title": "Seminar at MLLS (talk)",
-            "date": "2021-06",
-            "abstract": "Our center for machine learning in life sciences is an amazing place to share knowledge and have great discussions. I had the pleasure to present my work on my first paper of the PhD.",
-            "link": "https://mlls.dk/"
+            "event": "Seminar at MLLS",
+            "year": 2021,
+            "type": "talk"
         }
     ]
 }

@@ -2,33 +2,33 @@
     "items": [
         {
             "title": "Can sparse autoencoders make sense of gene expression latent variable models?",
-            "abstract": "Inspired by the Mechanistic Interpretability community, I am taking a quick look at what SAEs can do for interpretability outside the realm of LLMs. I am particularly interested in making models in the fields of Biology and Medicine more interpretable.",
-            "link": "https://arxiv.org/abs/2410.11468"
+            "paper": "https://arxiv.org/abs/2410.11468",
+            "github": ""
         },
         {
             "title": "MultiDGD: A versatile deep generative model for multi-omics data",
-            "abstract": "Nature Communications, 2024",
-            "link": "https://www.nature.com/articles/s41467-024-53340-z"
+            "paper": "https://www.nature.com/articles/s41467-024-53340-z",
+            "github": ""
         },
         {
             "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
-            "abstract": "Bioinformatics, 2023",
-            "link": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685"
+            "paper": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685",
+            "github": ""
         },
         {
             "title": "N-of-one differential gene expression without control samples using a deep generative model",
-            "abstract": "Genome Biology, 2023",
-            "link": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7"
+            "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7",
+            "github": ""
         },
         {
             "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
-            "abstract": "Entropy, 2021",
-            "link": "https://www.mdpi.com/1099-4300/23/11/1403"
+            "paper": "https://www.mdpi.com/1099-4300/23/11/1403",
+            "github": ""
         },
         {
             "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
-            "abstract": "Nature Communications, 2021",
-            "link": "https://www.nature.com/articles/s42003-021-02610-3"
+            "paper": "https://www.nature.com/articles/s42003-021-02610-3",
+            "github": ""
         }
     ]
 }

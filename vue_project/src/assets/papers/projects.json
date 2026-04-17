@@ -2,8 +2,8 @@
     "items": [
         {
             "title": "Intrinsic dimension estimation for multi-modal data",
-            "abstract": "I have developed a method that combines SVD with rate-distortion theory to estimate the intrinsic dimensions of shared and modality-specific latent spaces in multi-modal datasets. This method also learns the disentangled subspaces themselves and can be applied in end-to-end training as well as on top of pre-trained unimodal models.",
-            "link": ""
+            "description": "I developed a method that combines SVD and rate-distortion theory to estimate shared and modality-specific latent dimensions in multi-modal datasets, and to learn the disentangled subspaces themselves.",
+            "preprint": ""
         }
     ]
 }

@@ -14,19 +14,76 @@
 
           <h1 class="text-3xl font-bold pt-5" id="projects">Current projects</h1>
           <div class="divider"></div>
-          <Paper v-for="project in projects" :title="project.title" :abstract="project.abstract" :link="project.link"/>
+          <ul class="space-y-5">
+            <li v-for="project in projects" :key="project.title" class="border-b border-gray-200 pb-4">
+              <h2 class="text-xl font-semibold">{{ project.title }}</h2>
+              <p class="mt-1 text-gray-700">{{ project.description }}</p>
+              <a
+                v-if="project.preprint"
+                :href="project.preprint"
+                class="link link-primary mt-2 inline-block"
+              >
+                Preprint
+              </a>
+            </li>
+          </ul>
 
           <h1 class="text-3xl font-bold pt-5" id="papers">Papers</h1>
           <div class="divider"></div>
-          <Paper v-for="paper in papers" :title="paper.title" :abstract="paper.abstract" :link="paper.link"/>
+          <div class="overflow-x-auto">
+            <table class="table table-zebra w-full">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Paper</th>
+                  <th>GitHub</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="paper in papers" :key="paper.title">
+                  <td>{{ paper.title }}</td>
+                  <td>
+                    <a v-if="paper.paper" :href="paper.paper" class="link link-primary">Link</a>
+                    <span v-else>-</span>
+                  </td>
+                  <td>
+                    <a v-if="paper.github" :href="paper.github" class="link link-primary">Repo</a>
+                    <span v-else>-</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <h1 class="text-3xl font-bold pt-5" id="talks">Talks & Posters</h1>
           <div class="divider"></div>
-          <Talk v-for="talk in talks" :title="talk.title" :date="talk.date" :abstract="talk.abstract" :link="talk.link" />
+          <div class="overflow-x-auto">
+            <table class="table table-zebra w-full">
+              <thead>
+                <tr>
+                  <th>Event</th>
+                  <th>Year</th>
+                  <th>Type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="talk in talks" :key="`${talk.event}-${talk.year}`">
+                  <td>{{ talk.event }}</td>
+                  <td>{{ talk.year }}</td>
+                  <td class="capitalize">{{ talk.type }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <h1 class="text-3xl font-bold pt-5" id="teaching">Teaching</h1>
           <div class="divider"></div>
-          <Paper v-for="item in teaching" :title="item.title" :abstract="item.abstract" :link="item.link" />
+          <ul class="space-y-5">
+            <li v-for="item in teaching" :key="item.title" class="border-b border-gray-200 pb-4">
+              <h2 class="text-xl font-semibold">{{ item.title }}</h2>
+              <p class="mt-1 text-gray-700">{{ item.description }}</p>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
@@ -35,8 +92,6 @@
 
 <script>
 import Hero from "./components/Hero.vue";
-import Paper from "./components/Paper.vue";
-import Talk from "./components/Talk.vue";
 import * as projects from "./assets/papers/projects.json"
 import * as papers from "./assets/papers/papers.json"
 import * as talks from "./assets/papers/talks.json"
@@ -45,8 +100,6 @@ import * as teaching from "./assets/papers/teaching.json"
 export default {
   components: {
     Hero,
-    Paper,
-    Talk,
   },
   data() {
     return {
