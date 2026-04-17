@@ -10,7 +10,6 @@
             <a class="tab" href="#papers">Papers</a>
             <a class="tab" href="#talks">Talks & Posters</a>
             <a class="tab" href="#teaching">Teaching</a>
-            <!--<a class="tab" href="#cv">CV</a>-->
           </div>
 
           <h1 class="text-3xl font-bold pt-5" id="projects">Current projects</h1>
@@ -23,16 +22,11 @@
 
           <h1 class="text-3xl font-bold pt-5" id="talks">Talks & Posters</h1>
           <div class="divider"></div>
-          <Talk v-for="talk in talks" :title="talk.title" :date="talk.date" :abstract="talk.abstract" :link="talk.link"
-            :image="talk.image" />
+          <Talk v-for="talk in talks" :title="talk.title" :date="talk.date" :abstract="talk.abstract" :link="talk.link" />
 
           <h1 class="text-3xl font-bold pt-5" id="teaching">Teaching</h1>
           <div class="divider"></div>
           <Paper v-for="item in teaching" :title="item.title" :abstract="item.abstract" :link="item.link" />
-
-          <!--<h1 class="text-3xl font-bold pt-5" id="cv">CV</h1>
-          <div class="divider"></div>
-          <CvCard />-->
         </div>
       </div>
     </main>
@@ -42,8 +36,6 @@
 <script>
 import Hero from "./components/Hero.vue";
 import Paper from "./components/Paper.vue";
-import CvCard from "./components/CvCard.vue";
-import PaperImage from "./components/PaperImage.vue";
 import Talk from "./components/Talk.vue";
 import * as projects from "./assets/papers/projects.json"
 import * as papers from "./assets/papers/papers.json"
@@ -54,8 +46,6 @@ export default {
   components: {
     Hero,
     Paper,
-    PaperImage,
-    CvCard,
     Talk,
   },
   data() {

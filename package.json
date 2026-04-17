@@ -1,0 +1,9 @@
+{
+  "name": "website-maintenance",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix vue_project run dev",
+    "build": "npm --prefix vue_project run build",
+    "publish": "npm --prefix vue_project run publish:root"
+  }
+}
