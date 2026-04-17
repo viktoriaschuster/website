@@ -2,13 +2,13 @@
     "items": [
         {
             "title": "Can sparse autoencoders make sense of gene expression latent variable models?",
-            "paper": "https://arxiv.org/abs/2410.11468",
-            "github": ""
+            "paper": "https://proceedings.mlr.press/v311/schuster25a.html",
+            "github": "https://github.com/viktoriaschuster/sc_mechinterp"
         },
         {
             "title": "MultiDGD: A versatile deep generative model for multi-omics data",
             "paper": "https://www.nature.com/articles/s41467-024-53340-z",
-            "github": ""
+            "github": "https://github.com/Center-for-Health-Data-Science/multiDGD"
         },
         {
             "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
