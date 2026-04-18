@@ -10,10 +10,10 @@
           Hi, my name is Viktoria Schuster, machine learning researcher and
           data scientist for biological and health-related data by trade. 
           I completed my PhD in the Krogh group at the University of Copenhagen January 2024, where I stayed on as a Postoc until the end of 2024. 
-          Since then I have been a postdoc at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline Uhler, 
-          and am now also at MIT sponsored by a grant from the Novo Nordisk Foundation.
+          Since then I have been a Postdoc at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline Uhler, 
+          and am now also an MIT Postdoctoral Fellow sponsored by a grant from the Novo Nordisk Foundation.
           Glad you found my website, below you
-          can find some highlights of my research and teaching activities.
+          can find some highlights of my research and teaching activities. My main interests lie in representation learning and mechanistic interpretability of machine learning models, with a focus on applications in biology.
         </p>
         <div class="flex flex-row gap-4 md:place-self-center">
           <a href="https://twitter.com/viki_schu/with_replies?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="24"
