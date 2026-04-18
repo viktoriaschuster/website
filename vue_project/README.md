@@ -6,36 +6,41 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-# Run Dev server locally
-Run the following commands at the root of the repository:
-``` Bash
-npm install
-```
+# Local Development
+Run these commands from the repository root (the folder that contains both `package.json` and `vue_project/`):
 
-``` Bash
+```bash
+npm install
 npm run dev
 ```
 
-In order to build the website run:
-``` Bash
-npm run build
-```
-The built static HTML can then be found in the dist/ folder.
+# Important: Build vs Publish
+- `npm run build` (root): builds Vue into `vue_project/dist` only.
+- `npm run publish` (root): builds Vue and copies the generated files into the repository root (`index.html` + `assets/`) so deployment picks up your changes.
 
-``` Bash
-cd .. # into website root
-cp -r vue_project/dist/* .
-```
+If you only run `npm run build`, the website may not update after deployment.
 
-Commit and push the changes to deploy the updated website.
-``` Bash
+# Update Website Content And Deploy
+After editing files in `vue_project/src`, run these commands from repository root:
+
+```bash
+npm run publish
 git add .
-git commit -m "Update website content and rebuild"
+git commit -m "Update website content"
 git push origin main
 ```
 
-# When setting up on a new machine 
-Make sure to install Node.js and npm first. Then run the following command at the root of the repository to install dependencies:
-``` Bash
+After deployment finishes, hard refresh your browser to avoid cached assets:
+- macOS: `Cmd + Shift + R`
+
+# What To Check If Changes Do Not Appear
+1. Confirm the latest commit includes updated root files (`index.html` and `assets/*`).
+2. Confirm you used `npm run publish` (not only `npm run build`).
+3. Wait for deployment to finish, then hard refresh.
+
+# Setup On A New Machine
+Install Node.js and npm first. Then run:
+
+```bash
 brew install node
 ```
