@@ -145,12 +145,12 @@ export default {
         {
           name: "Machine learning",
           tone: "ml",
-          topics: ["Representation learning", "Multi-modal modeling", "Mechanistic interpretability"]
+          topics: ["Representation learning", "Mechanistic interpretability", "Multi-modal modeling"]
         },
         {
           name: "Computational biology",
           tone: "bio",
-          topics: ["Single-cell data", "Clinical data", "Imaging", "Regulatory networks"]
+          topics: ["Single-cell biology", "Imaging"]
         }
       ]
     };

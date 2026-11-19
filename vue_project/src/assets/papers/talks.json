@@ -1,9 +1,12 @@
 {
     "items": [
+        { "event": "ICML 2026 paper presentations (2 posters)", "year": 2026, "type": "poster" },
+        { "event": "Talking HeaDS, University of Copenhagen", "year": 2026, "type": "talk" },
+        { "event": "Eric and Wendy Schmidt Center Symposium: Biomedical Science and AI", "year": 2026, "type": "talk" },
         { "event": "IMP-IMBA Young Investigator Symposium", "year": 2025, "type": "talk" },
         { "event": "Machine Learning in Computational Biology (MLCB) conference", "year": 2025, "type": "talk", "link": "https://www.mlcb.org/" },
         { "event": "Models, Inference & Algorithms (MIA), Broad Institute", "year": 2025, "type": "talk", "link": "https://www.broadinstitute.org/talks/spring-2025/mia" },
-        { "event": "Schmidt Center Symposium: Biomedical Science and AI", "year": 2025, "type": "poster" },
+        { "event": "Eric and Wendy Schmidt Center Symposium: Biomedical Science and AI", "year": 2025, "type": "poster" },
         { "event": "Danish Digitalization, Data Science and AI conference", "year": 2024, "type": "talk", "link": "https://ddsa.dk/" },
         { "event": "Nordic AI Meet conference", "year": 2023, "type": "talk", "link": "https://nordicaimeet.com/" },
         { "event": "Generative models and uncertainty quantification workshop", "year": 2023, "type": "poster" },

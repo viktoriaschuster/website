@@ -2,16 +2,22 @@
     "_rule": "items: teaching and academic service, newest first (kind: service | teaching).",
     "items": [
         {
-            "title": "Journal club on AI agents",
+            "title": "EWSC general meeting",
+            "role": "Organizer of the Eric and Wendy Schmidt Center general meetings",
+            "kind": "service",
+            "years": "2025–present"
+        },
+        {
+            "title": "Journal club on AI agents and reinforcement learning",
             "role": "Organizer and lead",
             "kind": "service",
-            "years": "2025"
+            "years": "2025–2026"
         },
         {
             "title": "Student supervision",
             "role": "Supervised undergraduate, master's and PhD student projects",
             "kind": "service",
-            "years": "2022–2025"
+            "years": "2022–present"
         },
         {
             "title": "Introduction to Machine Learning",
