@@ -1,45 +1,61 @@
 <template>
-  <div class="hero flex-col lg:flex-row">
-    <div class="hero-content flex-col lg:flex-row">
-      <figure><img src="/src/assets/viki.jpeg" class="max-w-sm rounded-lg shadow-2xl" /></figure>
-
-      <div class="flex flex-col">
-        <h1 class="text-5xl font-bold">Viki Schuster</h1>
-        <p class="mt-1 text-lg text-gray-600">Postdoc at MIT and EWSC (Broad Institute)</p>
-        <p class="py-6">
-          Hi, my name is Viktoria Schuster, machine learning researcher and
-          data scientist for biological and health-related data by trade. 
-          I completed my PhD in the Krogh group at the University of Copenhagen January 2024, where I stayed on as a Postoc until the end of 2024. 
-          Since then I have been a Postdoc at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline Uhler, 
-          and am now also an MIT Postdoctoral Fellow sponsored by a grant from the Novo Nordisk Foundation.
-          Glad you found my website, below you
-          can find some highlights of my research and teaching activities. My main interests lie in representation learning and mechanistic interpretability of machine learning models, with a focus on applications in biology.
+  <header class="hero" id="top">
+    <div class="hero-text">
+      <h1>Viktoria Schuster</h1>
+      <p class="role">Postdoctoral Fellow at MIT</p>
+      <p class="bio">
+        Hi, my name is Viki, and I build machine learning methods that learn interpretable
+        representations of multi-modal data in the fields of biology and health.
+      </p>
+      <p class="bio">
+        I completed my PhD in the Krogh group at the University of Copenhagen in January 2024,
+        where I stayed on as a Postdoc until the end of 2024. Since then I have been a Postdoc at
+        the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard under Caroline
+        Uhler, and am now also an MIT Postdoctoral Fellow sponsored by a grant from the Novo Nordisk
+        Foundation. Glad you found my website; below you can find some highlights of my research
+        and teaching activities.
+      </p>
+      <div class="interests">
+        <p class="label">Research interests</p>
+        <p v-for="group in interests" :key="group.name" class="keywords" :class="group.tone">
+          <span class="group">{{ group.name }}</span>
+          <span class="kws"><span v-for="topic in group.topics" :key="topic" class="kw">{{ topic }}</span></span>
         </p>
-        <div class="flex flex-row gap-4 md:place-self-center">
-          <a href="https://twitter.com/viki_schu/with_replies?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-              height="24" viewBox="0 0 24 24" class="fill-current">
-              <path
-                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-              </path>
-            </svg>
-          </a>
-          <a href="https://github.com/viktoriaschuster"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-              width="24px" height="24px">
-              <path
-                d="M10.9,2.1c-4.6,0.5-8.3,4.2-8.8,8.7c-0.5,4.7,2.2,8.9,6.3,10.5C8.7,21.4,9,21.2,9,20.8v-1.6c0,0-0.4,0.1-0.9,0.1 c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C5.1,16.3,5,16.3,5,16.2C5,16,5.3,16,5.4,16c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1 c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C7.1,8.8,7,8.3,7,7.6c0-0.4,0-0.9,0.2-1.3 C7.2,6.1,7.4,6,7.5,6c0,0,0.1,0,0.1,0C8.1,6.1,9.1,6.4,10,7.3C10.6,7.1,11.3,7,12,7s1.4,0.1,2,0.3c0.9-0.9,2-1.2,2.5-1.3 c0,0,0.1,0,0.1,0c0.2,0,0.3,0.1,0.4,0.3C17,6.7,17,7.2,17,7.6c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4 c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C22,6.1,16.9,1.4,10.9,2.1z" />
-            </svg>
-          </a>
-          <a href="mailto:vschu211@mit.edu">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-            </svg>
-
-          </a>
-        </div>
       </div>
-
+      <ul class="pills" aria-label="Contact and profiles">
+        <li>
+          <a href="mailto:vschu211@mit.edu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M3 6.75A1.75 1.75 0 0 1 4.75 5h14.5A1.75 1.75 0 0 1 21 6.75v10.5A1.75 1.75 0 0 1 19.25 19H4.75A1.75 1.75 0 0 1 3 17.25V6.75Zm.5-.25 8.5 6.5 8.5-6.5"/></svg>
+            vschu211@mit.edu
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/viktoriaschuster">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.56 9.56 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/viki_schu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.18h1.7L7.4 4.73H5.57l11.1 14.45Z"/></svg>
+            @viki_schu
+          </a>
+        </li>
+      </ul>
     </div>
-  </div>
+    <figure class="portrait">
+      <img :src="photo" alt="Portrait of Viktoria Schuster" width="220" height="220" />
+    </figure>
+  </header>
 </template>
+
+<script>
+import photo from "../assets/viki.jpeg";
+
+export default {
+  props: { interests: { type: Array, default: () => [] } },
+  data() {
+    return { photo };
+  }
+};
+</script>

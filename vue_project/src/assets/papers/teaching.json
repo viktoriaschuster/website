@@ -1,16 +1,41 @@
 {
+    "_rule": "items: teaching and academic service, newest first (kind: service | teaching).",
     "items": [
         {
-            "title": "Machine learning in Pytorch",
-            "description": "A 5-day introductory machine learning course for life science researchers, including PyTorch foundations and a histopathology image classification challenge."
+            "title": "Journal club on AI agents",
+            "role": "Organizer and lead",
+            "kind": "service",
+            "years": "2025"
+        },
+        {
+            "title": "Student supervision",
+            "role": "Supervised undergraduate, master's and PhD student projects",
+            "kind": "service",
+            "years": "2022–2025"
+        },
+        {
+            "title": "Introduction to Machine Learning",
+            "role": "Instructor and TA",
+            "kind": "teaching",
+            "years": "2022–2024",
+            "description": "5-day course for life scientists. I made the PyTorch material and a histopathology image-classification challenge.",
+            "link": "https://github.com/Center-for-Health-Data-Science/IntroToML"
         },
         {
             "title": "Introduction to Python",
-            "description": "A 2-day Python crash course where I helped restructure content and taught basic syntax, functions, and programming fundamentals."
+            "role": "Instructor and TA",
+            "kind": "teaching",
+            "years": "2021–2022",
+            "description": "2-day programming crash course; I helped restructure it and taught syntax and functions.",
+            "link": "https://github.com/Center-for-Health-Data-Science/PythonTsunami"
         },
         {
             "title": "From Excel to R",
-            "description": "A 2-day introduction to R where I contributed tidyverse teaching materials and supported the course as TA."
+            "role": "Instructor and TA",
+            "kind": "teaching",
+            "years": "2021–2022",
+            "description": "2-day introduction to R; I made and taught the tidyverse material.",
+            "link": "https://github.com/Center-for-Health-Data-Science/FromExceltoR"
         }
     ]
 }

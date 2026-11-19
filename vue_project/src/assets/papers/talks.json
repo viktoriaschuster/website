@@ -1,44 +1,18 @@
 {
     "items": [
-        {
-            "event": "Machine Learning in Computational Biology (MLCB) conference",
-            "year": 2025,
-            "type": "talk"
-        },
-        {
-            "event": "Models, Inference & Algorithms (MIA)",
-            "year": 2025,
-            "type": "talk"
-        },
-        {
-            "event": "Danish Digitalization, Data Science and AI conference",
-            "year": 2024,
-            "type": "talk"
-        },
-        {
-            "event": "Nordic AI Meet",
-            "year": 2023,
-            "type": "poster"
-        },
-        {
-            "event": "ISMB/ECCB",
-            "year": 2023,
-            "type": "poster"
-        },
-        {
-            "event": "Seminar at Helmholtz Munich",
-            "year": 2023,
-            "type": "talk"
-        },
-        {
-            "event": "Cellular Genetics Methods Matter Seminar (Wellcome Sanger Institute)",
-            "year": 2022,
-            "type": "talk"
-        },
-        {
-            "event": "Seminar at MLLS",
-            "year": 2021,
-            "type": "talk"
-        }
+        { "event": "IMP-IMBA Young Investigator Symposium", "year": 2025, "type": "talk" },
+        { "event": "Machine Learning in Computational Biology (MLCB) conference", "year": 2025, "type": "talk", "link": "https://www.mlcb.org/" },
+        { "event": "Models, Inference & Algorithms (MIA), Broad Institute", "year": 2025, "type": "talk", "link": "https://www.broadinstitute.org/talks/spring-2025/mia" },
+        { "event": "Schmidt Center Symposium: Biomedical Science and AI", "year": 2025, "type": "poster" },
+        { "event": "Danish Digitalization, Data Science and AI conference", "year": 2024, "type": "talk", "link": "https://ddsa.dk/" },
+        { "event": "Nordic AI Meet conference", "year": 2023, "type": "talk", "link": "https://nordicaimeet.com/" },
+        { "event": "Generative models and uncertainty quantification workshop", "year": 2023, "type": "poster" },
+        { "event": "ISMB/ECCB conference", "year": 2023, "type": "poster", "link": "https://www.iscb.org/ismbeccb2023" },
+        { "event": "Institute of Computational Biology Seminar, Helmholtz Munich", "year": 2023, "type": "talk" },
+        { "event": "Generative Modeling Summer School", "year": 2023, "type": "poster" },
+        { "event": "Health Data Science Day", "year": 2023, "type": "poster" },
+        { "event": "Cellular Genetics Methods Matter seminar, Wellcome Sanger Institute", "year": 2022, "type": "talk" },
+        { "event": "Summer School on human-in-the-loop and learning with limited labels", "year": 2022, "type": "poster", "link": "https://human-in-the-loop.compute.dtu.dk/" },
+        { "event": "Center for Basic Machine Learning Research in Life Science (MLLS)", "year": 2021, "type": "talk", "link": "https://mlls.dk/" }
     ]
 }

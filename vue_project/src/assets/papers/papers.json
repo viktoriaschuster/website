@@ -1,34 +1,112 @@
 {
     "items": [
         {
+            "title": "FiGuRO: Intrinsic Dimension Estimation for Multi-Modal Data",
+            "authors": ["Viktoria Schuster", "Sana Tonekaboni", "Caroline Uhler"],
+            "venue": "International Conference on Machine Learning (ICML)",
+            "venueShort": "ICML",
+            "year": 2026,
+            "image": "figuro.png",
+            "summary": "Learns how many dimensions a multi-modal dataset really needs, split into shared and modality-specific subspaces, using fidelity-guided low-rank projections. Also works post hoc on pretrained unimodal models.",
+            "highlight": "new",
+            "links": {
+                "paper": "https://proceedings.mlr.press/v306/schuster26a.html",
+                "pdf": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/schuster26a/schuster26a.pdf",
+                "code": "https://github.com/viktoriaschuster/FiGuRO",
+                "openreview": "https://openreview.net/forum?id=w4g07OVblk"
+            }
+        },
+        {
+            "title": "MultiLoReFT: Decoupling Shared and Modality-Specific Subspaces in Multimodal Learning via Low-Rank Representation Fine-Tuning",
+            "authors": ["Sana Tonekaboni", "Viktoria Schuster", "Caroline Uhler"],
+            "venue": "International Conference on Machine Learning (ICML)",
+            "venueShort": "ICML",
+            "year": 2026,
+            "image": "multiloreft.png",
+            "summary": "Low-rank representation fine-tuning on frozen unimodal encoders that separates shared from modality-specific information, for multimodal prediction without large paired datasets.",
+            "highlight": "new",
+            "links": {
+                "paper": "https://proceedings.mlr.press/v306/tonekaboni26a.html",
+                "pdf": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tonekaboni26a/tonekaboni26a.pdf",
+                "code": "https://github.com/sanatonek/MultiLoReFT",
+                "openreview": "https://openreview.net/forum?id=aUkI7iKovO"
+            }
+        },
+        {
             "title": "Can sparse autoencoders make sense of gene expression latent variable models?",
-            "paper": "https://proceedings.mlr.press/v311/schuster25a.html",
-            "github": "https://github.com/viktoriaschuster/sc_mechinterp"
+            "authors": ["Viktoria Schuster"],
+            "venue": "Machine Learning in Computational Biology (MLCB), oral",
+            "venueShort": "MLCB",
+            "year": 2025,
+            "image": "sae.png",
+            "summary": "Tests what sparse autoencoders recover from the latent spaces of gene expression models, on simulated data and pretrained single-cell models, and introduces scFeatureLens to link SAE features to gene sets.",
+            "links": {
+                "paper": "https://proceedings.mlr.press/v311/schuster25a.html",
+                "pdf": "https://raw.githubusercontent.com/mlresearch/v311/main/assets/schuster25a/schuster25a.pdf",
+                "code": "https://github.com/viktoriaschuster/sc_mechinterp"
+            }
         },
         {
             "title": "MultiDGD: A versatile deep generative model for multi-omics data",
-            "paper": "https://www.nature.com/articles/s41467-024-53340-z",
-            "github": "https://github.com/Center-for-Health-Data-Science/multiDGD"
+            "authors": ["Viktoria Schuster", "Emma Dann", "Anders Krogh", "Sarah A. Teichmann"],
+            "venue": "Nature Communications",
+            "venueShort": "Nat. Commun.",
+            "year": 2024,
+            "image": "multidgd.webp",
+            "summary": "Extends the Deep Generative Decoder to paired single-cell multi-omics data, modelling gene expression and chromatin accessibility in one shared representation.",
+            "links": {
+                "paper": "https://www.nature.com/articles/s41467-024-53340-z",
+                "code": "https://github.com/Center-for-Health-Data-Science/multiDGD"
+            }
         },
         {
             "title": "The Deep Generative Decoder: MAP estimation of representations improves modeling of single-cell RNA data",
-            "paper": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685",
-            "github": ""
+            "authors": ["Viktoria Schuster", "Anders Krogh"],
+            "venue": "Bioinformatics",
+            "venueShort": "Bioinformatics",
+            "year": 2023,
+            "image": "DGD_4whiteS.png",
+            "summary": "Learns cell representations by MAP estimation without an encoder, with a Gaussian-mixture prior over the latent space.",
+            "links": {
+                "paper": "https://academic.oup.com/bioinformatics/article/39/9/btad497/7241685"
+            }
         },
         {
             "title": "N-of-one differential gene expression without control samples using a deep generative model",
-            "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7",
-            "github": ""
+            "authors": ["Iñigo Prada-Luengo", "Viktoria Schuster", "Yuhu Liang", "Thilde Terkelsen", "Valeria Sora", "Anders Krogh"],
+            "venue": "Genome Biology",
+            "venueShort": "Genome Biol.",
+            "year": 2023,
+            "image": "13059_2023_3104_Fig1_HTML.webp",
+            "summary": "Uses a generative model of healthy tissue expression to call differentially expressed genes in a single sample, without matched controls.",
+            "links": {
+                "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03104-7"
+            }
         },
         {
             "title": "A manifold learning perspective on representation learning: Learning decoder and representations without an encoder",
-            "paper": "https://www.mdpi.com/1099-4300/23/11/1403",
-            "github": ""
+            "authors": ["Viktoria Schuster", "Anders Krogh"],
+            "venue": "Entropy",
+            "venueShort": "Entropy",
+            "year": 2021,
+            "image": "dgd.png",
+            "summary": "Frames representation learning as manifold learning and shows that a decoder and its representations can be learned jointly, without an encoder.",
+            "links": {
+                "paper": "https://www.mdpi.com/1099-4300/23/11/1403"
+            }
         },
         {
             "title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
-            "paper": "https://www.nature.com/articles/s42003-021-02610-3",
-            "github": ""
+            "authors": ["Alessandro Montemurro", "Viktoria Schuster", "Helle Rus Povlsen", "Amalie Kai Bentzen", "Vanessa Jurtz", "William D. Chronister", "Austin Crinklaw", "Sine R. Hadrup", "Ole Winther", "Bjoern Peters", "Leon Eyrich Jessen", "Morten Nielsen"],
+            "venue": "Communications Biology",
+            "venueShort": "Commun. Biol.",
+            "year": 2021,
+            "image": "nettcr.png",
+            "summary": "A convolutional network that predicts TCR-peptide binding from paired CDR3α and β sequences, showing that both chains together improve accuracy.",
+            "highlight": "cited",
+            "links": {
+                "paper": "https://www.nature.com/articles/s42003-021-02610-3"
+            }
         }
     ]
 }
